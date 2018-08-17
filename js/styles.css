@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#app .cell {
+    margin: 1px;
+    width: 25px;
+    height: 25px;
+    border: 1px grey solid;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#app {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;     
+}
+
+#app .snake {
+    background-color: rgb(2, 201, 2);    
+}
+
+#app .apple {
+    background-color: red;
+}
+
+#app .head {
+    background-color: darkgreen;
+}
